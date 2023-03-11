@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 from pathlib import Path
 import urllib
 import time
+import re
 
 # テーマの設定
 sg.theme("DarkGray15")
@@ -62,7 +63,7 @@ def execute():
         imgdata = requests.get(image_url)
 
         # URLから最後のファイル名を取り出して、保存フォルダとつなげる
-        filename = image_url.split("/")[-1]
+        filename = re.sub(r'[\\|/|:|?|"|<|>|\|]', '-', image_url.split("/")[-1])
         out_path = savepath.joinpath(filename)
 
         # 画像データをファイルに書き出す

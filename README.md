@@ -2,6 +2,25 @@
 <img src="https://raw.githubusercontent.com/oiudon/web-page-image-save-app/main/WebPageImageSaveApp.jpg">
 <h2>概要</h2>
 <p>Webページ内の画像を一括で保存するデスクトップアプリです。PySimpleGUIで作成しました。</p>
+<h2>使用言語など</h2>
+<table>
+  <tr>
+    <th>名称</th>
+    <th>説明</th>
+  </tr>
+  <tr>
+    <td>Python</td>
+    <td>プログラミング言語</td>
+  </tr>
+  <tr>
+    <td>PySimpleGUI</td>
+    <td>デスクトップアプリ開発用ライブラリ</td>
+  </tr>
+  <tr>
+    <td>IDLE</td>
+    <td>Python用統合開発環境</td>
+  </tr>
+</table>
 <h2>起動方法</h2>
 <ol>
   <li>「WebPageImageSaveApp.zip」を展開する。</li>

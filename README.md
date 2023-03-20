@@ -1,5 +1,5 @@
 <h1>Webページ内画像収集アプリ</h1>
-<img src="https://raw.githubusercontent.com/oiudon/web-page-image-save-app/main/WebPageImageSaveApp.jpg">
+<img src="https://user-images.githubusercontent.com/125285302/226239724-aa0acedd-3f4d-4545-af65-829299e0ed13.jpg">
 <h2>概要</h2>
 <p>Webページ内の画像を一括で保存するデスクトップアプリです。PySimpleGUIで作成しました。</p>
 <h2>使用言語など</h2>
